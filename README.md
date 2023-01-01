@@ -1,5 +1,5 @@
 # Open-Source calculator
-![](https://img.shields.io/github/downloads/2pe4Ka2/calculator/total?style=plastic)</br>
+![](https://img.shields.io/github/downloads/2pe4Ka2/calculator/total?style=plastic) ![](https://img.shields.io/github/v/release/2pe4Ka2/calculator?style=plastic)</br>
 Калькулятор с открытым исходным кодом написанный как тестовый проект на [PHP DevelStudio](http://ds.develnext.org)
 
 ## Как я могу запустить и редактировать проект?
