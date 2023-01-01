@@ -1,0 +1,59 @@
+a:1:{s:5:"form1";a:15:{s:4:"but1";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 1;
+} else {
+    c("valueLabel")->caption = 1;
+}";}s:4:"but2";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 2;
+} else {
+    c("valueLabel")->caption = 2;
+}";}s:4:"but3";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 3;
+} else {
+    c("valueLabel")->caption = 3;
+}";}s:4:"but4";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 4;
+} else {
+    c("valueLabel")->caption = 4;
+}";}s:4:"but5";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 5;
+} else {
+    c("valueLabel")->caption = 5;
+}";}s:4:"but6";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 6;
+} else {
+    c("valueLabel")->caption = 6;
+}";}s:4:"but7";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 7;
+} else {
+    c("valueLabel")->caption = 7;
+}";}s:4:"but8";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 8;
+} else {
+    c("valueLabel")->caption = 8;
+}";}s:4:"but9";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 9;
+} else {
+    c("valueLabel")->caption = 9;
+}";}s:4:"but0";a:1:{s:7:"onclick";s:120:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption .= 0;
+} else {
+    c("valueLabel")->caption = 0;
+}";}s:5:"buteq";a:1:{s:7:"onclick";s:272:"if ($GLOBALS["state"]) {
+    alert($GLOBALS["num"]." + ".c("valueLabel")->caption." = ".($GLOBALS["num"] + c("valueLabel")->caption));
+    c("valueLabel")->caption = 0;
+    $GLOBALS["state"] = false;
+    c("butPL")->enabled = true;
+    c("butEQ")->enabled = false;
+}";}s:5:"butpl";a:1:{s:7:"onclick";s:210:"if (!$GLOBALS["state"]) {
+    $GLOBALS["num"] = c("valueLabel")->caption;
+    $GLOBALS["state"] = true;
+    c("valueLabel")->caption = 0;
+    c("butPL")->enabled = false;
+    c("butEQ")->enabled = true;
+}";}s:6:"butdel";a:1:{s:7:"onclick";s:201:"if (c("valueLabel")->caption != 0) {
+    c("valueLabel")->caption = substr(c("valueLabel")->caption, 0, -1);
+    if (c("valueLabel")->caption == "") {
+        c("valueLabel")->caption = 0;
+    }
+}";}s:8:"--fmedit";a:1:{s:8:"oncreate";s:48:"$GLOBALS["state"] = false;
+$GLOBALS["num"] = 0;";}s:10:"valuelabel";N;}}
